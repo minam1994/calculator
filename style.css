@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 100;
+    color: #1c1c1c;
+}
+
+table {
+    border-collapse: collapse;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+}
+
+table, td {
+    border: 2px solid #1c1c1c;
+}
+td {
+    width: 50px;
+    background-color: #2f2f2f;
+}
+
+
+button {
+    background-color: transparent;
+    color: #fff;
+    padding: 0;
+    font-size: 20px;
+    border: none;
+    width: 50px;
+    cursor: pointer;
+}
+
+#eq {
+    width: 150px;
+}
+
+#delete {
+    color: #b40d0d;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    text-align: right;
+    font-size: 18px;
+    margin: 5px;
+    background-color: lightgray;
+    border: none;
+    padding-right: 5px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
